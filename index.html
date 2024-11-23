@@ -14,17 +14,152 @@ Select ONE Additional Feature to Add
 
 <!DOCTYPE html>
 <html>
-
-<head>
-  <title>Unit 4 Project</title>
+    <head>
   <meta charset="utf-8">
-  <style>
+  <title>Unit 4 Project</title>
+  <!DOCTYPE html>
+   
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: grey;
+        }
 
-  </style>
+       
+        header {
+            background-color: white;
+            color: lightblue;
+            padding: 20px;
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+        }
+
+    
+
+       
+        nav {
+            background-color: darkblue;
+            padding: 10px 0;
+        }
+
+
+     
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 1rem;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav ul li a:hover {
+            color: black;
+        }
+
+           
+        
+     
+
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .product {
+            background-color: lightblue;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .product img {
+            width: 100%;
+            border-radius: 8px;
+            max-height: 200px;
+            object-fit: cover;
+        }
+
+        .product h3 {
+            font-size: 1.2rem;
+            margin: 15px 0 10px;
+            font-family: 'Poppins', sans-serif;
+            color: black;
+        }
+
+        .product p {
+            font-size: 0.9rem;
+            color: black;
+        }
+
+        .product button {
+            background-color: blue;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 1rem;
+            font-family: 'Roboto', sans-serif;
+            cursor: pointer;
+        }
+
+        .product button:hover {
+            background-color: silver;
+        }
+
+        }
+    </style>
 </head>
 <body>
+   
+    <header>
+        <h1>Best Jordans to Dance In</h1>
+        <p>Top Picks for Dancing in Style</p>
+    </header>
 
- 
+    <nav>
+        <ul>
+            <li><a href="#products">Products</a></li>
+          
+        </ul>
+    </nav>
 
+    
+    
+        <h2>Best Jordans for Dancing</h2>
+        <div class="product-grid">
+            
+            <div class="product">
+                <img src="http://ns.imgix.net/product/1625034391436_AirJordan10.jpeg?fit=fill&bg=FFFFFF&trim=color&auto=format,compress&q=90" alt="Air Jordan 1">
+                <h3>Air Jordan 1</h3>
+          
+   
+            </div>
+            
+            <div class="product">
+                <img src="https://sp.yimg.com/ib/th?id=OPHS.LjS3QX093HnjiA474C474&o=5&pid=21.1&w=174&h=174" alt="Air Jordan 4">
+                <h3>Air Jordan 4</h3>
+            </div>
+            
+            <div class="product">
+                <img src="https://i.ebayimg.com/thumbs/images/g/zBcAAOSwFNdjBo5i/s-l500.jpg" alt="Jordan Delta 2">
+                <h3>Jordan 3</h3>
+               
+            </div>
+        </div>
+    </section>
+
+  
 </body>
 </html>
